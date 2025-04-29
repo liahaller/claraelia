@@ -4,3 +4,4 @@ def rolar_dados(n):
     for i in range(n):
         dados.append(random.randint(1,6))
     return dados
+print(rolar_dados(4))
